@@ -1,0 +1,3 @@
+<!-- Use this file to provide workspace-specific custom instructions to Copilot. For more details, visit https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->
+
+This project is a Weather Forecast Application with a React (Vite) frontend and a Python backend. The frontend should provide a user-friendly, responsive interface for displaying real-time weather updates, weekly forecasts, and detailed weather information for locations worldwide. The backend should integrate with a third-party weather API, provide endpoints for current and weekly weather, and implement caching to reduce API calls and improve load times.

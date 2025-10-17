@@ -27,7 +27,8 @@ function App() {
     try {
       setLoading(true);
       setError(null);
-      const response = await fetch(`http://127.0.0.1:8000/api/weather/${loc}`);
+      const response = await fetch(`https://zwdzcznstnjgkesxdocjxh3pbm0mhmxt.lambda-url.us-east-2.on.aws/api/weather/${loc}`,
+        {method:'POST',headers:{'Content-Type':'application/json'}});
       
       if (!response.ok) {
         throw new Error('Location not found');
